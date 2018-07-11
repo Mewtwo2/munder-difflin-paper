@@ -1,0 +1,67 @@
+.developer-container {
+  max-width: 90%;
+  margin: 0 auto;
+  color: white;
+  font-family: sans-serif !important;
+}
+
+.navbar {
+  background-color: #ea0000 !important;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40%;
+  color: white !important;
+}
+
+.problem-and-solution {
+  max-width: 100%;
+  padding-top: .5%;
+  width: 100%;
+  height: 50px;
+  background-color: #e8f713;
+  margin-top: .7%;
+  border-radius: 8px;
+  border: 5px solid black;
+}
+
+.problem-and-solution h3 {
+  padding-left: 18%;
+  font-weight: bold;
+}
+
+.solutions-expanded {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+  margin-top: 0%;
+  border-radius: 7px;
+}
+
+.solutions-expanded img {
+  opacity: 0.1;
+  max-width: 100%;
+  width: 100%;
+}
+
+.solutions-expanded h2 {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  font-size:50px;
+}
+
+.solutions-expanded h2 span {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.background-tint {
+  background-color: rgba(0, 0, 0, 1);
+}
