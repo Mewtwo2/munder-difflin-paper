@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&#9776;</a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">About Us</a>
@@ -32,17 +32,21 @@
       </div>
     </nav>
 
-    <div class="problem-and-solution hidden" onload="makeVisible()">
-      <h3>BE THE SMARTEST PERSON IN YOUR GROUP OF FRIENDS</h3>
+    <div class="section-heading hidden" onload="makeVisible()">
+      <h3>DO YOU WANT ACCURATE AND METICULOUSLY CURATED CONTENT?</h3>
     </div>
 
     <div class="solutions-expanded background-tint hidden">
 
+      <!--I am using JS to inject the image into the HTML-->
       <img src="" id="solutions-background-image">
-      <!--You might want to use JS to inject the image into this element since using JS is one of the requirements-->
+
       <div class="solutions-text">
         <h2><span class="span-one">KEEP UP WITH THE WORLD</span></h2>
         <h2><span class="span-two">BE INFORMED</span></h2>
+        <p><span class="span-three">WE HAVE JOURNALISTS AROUND THE GLOBE WORKING 24/7 TO KEEP
+        YOU INFORMED ABOUT EVENTS AND TRENDS THAT MATTER TO YOU</span></p>
+        <span id="learn-more-anchor">Learn More &#9947;</span>
       </div>
 
     </div>
